@@ -5,8 +5,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.After;
-import org.junit.Assert;
+import cucumber.api.java.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,41 +18,41 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
 
-public class StepDefinitions {
-    private WebDriver driver;
-    private WebDriverWait wait;
-    private Select select;
-    private By depCityLocator = By.name("fromPort");
-    private String selectDepCity = "Boston";
-    private By desCityLocator = By.name("toPort");
-    private String selectDesCity = "London";
-    private String blazeDemoUrl = "http://blazedemo.com";
-    private By flightsTableLocator = By.className("table");
-    private By containerHeaderText = By.xpath("/html/body/div[2]/h3");
+    public class StepDefinitions {
+        private WebDriver driver;
+        private WebDriverWait wait;
+        private Select select;
+        private By depCityLocator = By.name("fromPort");
+        private String selectDepCity = "Boston";
+        private By desCityLocator = By.name("toPort");
+        private String selectDesCity = "London";
+        private String blazeDemoUrl = "http://blazedemo.com";
+        private By flightsTableLocator = By.className("table");
+        private By containerHeaderText = By.xpath("/html/body/div[2]/h3");
 
-    @Before
-    public void setUp(){
-        this.driver = new ChromeDriver();
-        this.wait = new WebDriverWait(driver, 60);
-        this.driver.manage().window().maximize();
-        this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-        this.driver.manage().timeouts().setScriptTimeout(60,TimeUnit.SECONDS);
-    }
+        @Before
+        public void setUp(){
+            this.driver = new ChromeDriver();
+            this.wait = new WebDriverWait(driver, 60);
+            this.driver.manage().window().maximize();
+            this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+            this.driver.manage().timeouts().setScriptTimeout(60,TimeUnit.SECONDS);
+        }
 
-    @After
-    public void tearDown(){
-        this.driver.quit();
-        this.driver.manage().deleteAllCookies();
-        this.driver = null;
-    }
+        @After
+        public void tearDown(){
+            this.driver.manage().deleteAllCookies();
+            this.driver.quit();
+            this.driver = null;
+        }
 
-    @Given("^User navigates to blazedemo$")
-    public void user_navigates_to_blazedemo() throws Throwable {
-       driver.get(blazeDemoUrl);
-       assertEquals("BlazeDemo", driver.getTitle());
-    }
+        @Given("^User navigates to blazedemo$")
+        public void user_navigates_to_blazedemo() throws Throwable {
+            driver.get(blazeDemoUrl);
+            assertEquals("BlazeDemo", driver.getTitle());
+        }
 
-    @And("^User chooses his departure city$")
+        @And("^User chooses his departure city$")
     public void user_chooses_his_departure_city() throws Throwable {
         select = new Select(driver.findElement(depCityLocator));
         select.selectByVisibleText(selectDepCity);

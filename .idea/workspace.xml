@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5881670a-8200-4aff-969e-e4f2fb9bb1bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFlightFinder/FlightFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFlightFinder/FlightFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogin/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogin/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightFinder.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/CucumberProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFlightFinder/FlightFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFlightFinder/StepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestLogin/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestLogin/StepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFlightFinder/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFlightFinder/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogin/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogin/StepDefinitions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestLogin/Login.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="57" />
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFlightFinder/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-859">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -77,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFlightFinder/FlightFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestLogin/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +112,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/resources/FlightFinder.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/TestFlightFinder/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestLogin/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFlightFinder/FlightFinder.java" />
         <option value="$PROJECT_DIR$/src/test/java/Runner/AllTestRunnerClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestLogin/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestFlightFinder/StepDefinitions.java" />
       </list>
     </option>
   </component>
@@ -141,8 +132,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="610" />
-    <option name="y" value="94" />
+    <option name="x" value="609" />
+    <option name="y" value="93" />
     <option name="width" value="1206" />
     <option name="height" value="1032" />
   </component>
@@ -152,6 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +156,12 @@
               <item name="CucumberProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CucumberProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CucumberProject" type="b2602c69:ProjectViewProjectNode" />
@@ -200,12 +199,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CucumberProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberProject" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,21 +230,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.FlightFinder">
-    <configuration name="AllTestRunnerClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.AllTestRunnerClass" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FlightFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberProject" />
       <extension name="coverage">
@@ -270,12 +257,10 @@
     <list>
       <item itemvalue="JUnit.Login" />
       <item itemvalue="JUnit.FlightFinder" />
-      <item itemvalue="JUnit.AllTestRunnerClass" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FlightFinder" />
-        <item itemvalue="JUnit.AllTestRunnerClass" />
         <item itemvalue="JUnit.Login" />
       </list>
     </recent_temporary>
@@ -294,42 +279,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Login - 2019.09.27 at 22h 10m 06s.xml">
-      <configuration name="Login" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Login - 2019.09.27 at 22h 16m 18s.xml">
-      <configuration name="Login" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Login - 2019.09.27 at 22h 25m 56s.xml">
-      <configuration name="Login" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTestRunnerClass - 2019.09.27 at 22h 31m 11s.xml">
-      <configuration name="AllTestRunnerClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTestRunnerClass - 2019.09.27 at 22h 31m 43s.xml">
-      <configuration name="AllTestRunnerClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTestRunnerClass - 2019.09.27 at 22h 32m 29s.xml">
-      <configuration name="AllTestRunnerClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTestRunnerClass - 2019.09.27 at 22h 32m 53s.xml">
-      <configuration name="AllTestRunnerClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTestRunnerClass - 2019.09.27 at 22h 33m 09s.xml">
-      <configuration name="AllTestRunnerClass" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AllTestRunnerClass - 2019.09.27 at 22h 33m 50s.xml">
       <configuration name="AllTestRunnerClass" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FlightFinder - 2019.09.27 at 22h 35m 48s.xml">
       <configuration name="FlightFinder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FlightFinder - 2019.09.28 at 15h 03m 36s.xml">
+      <configuration name="FlightFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightFinder - 2019.09.28 at 15h 04m 10s.xml">
+      <configuration name="FlightFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightFinder - 2019.09.28 at 15h 04m 48s.xml">
+      <configuration name="FlightFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightFinder - 2019.09.28 at 15h 06m 22s.xml">
+      <configuration name="FlightFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightFinder - 2019.09.28 at 15h 18m 42s.xml">
+      <configuration name="FlightFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightFinder - 2019.09.29 at 13h 39m 29s.xml">
+      <configuration name="FlightFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightFinder - 2019.09.29 at 13h 42m 30s.xml">
+      <configuration name="FlightFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Login - 2019.09.29 at 13h 45m 23s.xml">
+      <configuration name="Login" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16680162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16923077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -338,7 +323,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,16 +347,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestLogin/StepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/AllTestRunnerClass.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -379,17 +355,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FlightFinder.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFlightFinder/FlightFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFlightFinder/StepDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestLogin/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-859">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="102">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -400,33 +382,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/AllTestRunnerClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FlightFinder.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestLogin/StepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFlightFinder/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestLogin/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFlightFinder/FlightFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
